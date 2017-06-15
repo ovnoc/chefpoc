@@ -1,0 +1,13 @@
+{
+  "name": "dev",
+  "default_attributes": {
+    "nginx": {
+      "listen_ports": [
+        "8000"
+      ]
+    }
+  },
+  "json_class": "Chef::Environment",
+  "description": "The development environment for Organic Valley",
+  "chef_type": "environment"
+}
